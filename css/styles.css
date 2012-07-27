@@ -1,0 +1,329 @@
+html, body, #container { height: 100%; }
+body > #container { height: auto; min-height: 100%; }
+
+
+/* Generic Selectors */
+
+body {
+	background-color: #fafafa;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+  	display: inline;
+	float: center;
+	width: 900px;
+  	height: 600px;
+}
+
+#projects li {
+	position: relative;
+	top: 30px;
+	padding: 9px;
+}
+
+.right-align li {
+	padding: 10px;
+}
+
+
+/* CLasses */
+
+.headerfont {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-color: black;
+	font-size: 13pt
+}
+
+.left-align {
+	float: left;
+	padding-left: 8px
+}
+
+.right-align {
+	float: right;
+	padding-top: 11px;
+}
+
+.thumb {
+	position: relative;
+	width: 200px;
+	height: 150px;
+	margin: 0;
+}
+
+.project-row {
+	padding-bottom: 5px
+}
+
+.description {
+	text-align: left;
+	float: left;
+	position: relative;
+	width: 400px;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+}
+
+.description-about {
+	text-align: left;
+	position: relative;
+	margin: 0;
+	top: 10px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+}
+
+.spaceimages img {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+
+/* ID's */
+
+#bodyfont {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-color: black;
+	font-size: 11pt
+}
+
+#container {
+	top: 130px;
+	position: relative;
+	width: 905px;
+	height: 280px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#projects {
+	position: relative;
+	top: -20px;
+	width: 905px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+#headercontainer {
+	position: relative;
+	top: 10px;
+	width: 860px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#divider {
+	position: relative;
+	height: 30px;
+	padding-left: 6px
+}
+
+#divider img {
+	vertical-align: top;
+}
+
+#footer {
+	 clear: both;
+	 position: relative;
+	 top: 300px;
+	 z-index: 10;
+	 height: 3em;
+	 margin-top: -3em;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-color: black;
+	font-size: 10pt
+}
+
+#content { padding-bottom: 3em; }
+
+#leftdescription{
+	position: relative;
+	top: 5px;
+	width: 400px;
+	height: 100px;
+	margin: 0;
+	padding-left: 25px;
+	float: left;
+}
+
+#rightdescription {
+	position: relative;
+	width: 400px;
+	top: 5px;
+	height: 100px;
+	margin: 0;
+	padding-right: 20px;
+	float: right;
+}
+
+#contactleft {
+	position: relative;
+	top: 30px;
+	padding-left: 35px;
+}
+
+#contactright {
+	position: relative;
+	text-align: right;
+	top: 30px;
+	padding-left: 35px;
+
+}
+
+#amnestyvideo {
+	top: 90px;
+	position: relative;
+}
+
+#weatherimage {
+	position: relative;
+	padding-left: 10px;
+	top: 100px;
+	width: 810px;
+}
+
+#spacecontainer {
+	position: relative;
+	top: 110px;
+}
+
+#foodimage {
+	position: relative;
+	top: 80px;
+}
+
+#eclipsetopimage {
+	position: relative;
+	top: 90px;
+
+}
+
+#eclipseleftzoom {
+	position: relative;
+	top: 140px;
+	float: left;
+	padding-bottom: 50px;
+
+}
+
+#eclipserightzoom {
+	position: relative;
+	top: 140px;
+	float: right;
+	padding-bottom: 50px;
+}
+
+
+#postertopimage {
+	position: relative;
+	top: 90px;
+
+}
+
+#posterleftimage {
+	position: relative;
+	top: 140px;
+	float: left;
+	padding-left: 28px;
+	padding-bottom: 50px;
+
+}
+
+#posterrightimage {
+	position: relative;
+	top: 140px;
+	float: right;
+	padding-right: 27px;
+	padding-bottom: 50px;
+}
+
+	
+#statisticsimage {
+	position: relative;
+	top: 80px;
+	padding-bottom: 30px;
+}
+
+#statisticsimage img {
+	padding-bottom: 30px;
+}
+
+#narrativeimages {
+	position: relative;
+	top: 30px;
+	padding-bottom: 20px;
+}
+
+#narrativeimages img {
+	padding-bottom: 10px;
+}
+
+
+
+a { text-decoration: none; color: black; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+
+a img { border:none;
+}
+
+
+
+#projects .project-row {
+	float: left;
+	margin: 0 16px;
+}
+
+#projects .image {
+	width: 200px;
+	height: 150px;
+	float: left;
+	overflow: hidden;
+}
+
+#projects .image a {
+	position: relative;
+	overflow: hidden;
+	float: left;
+	height: 150px;
+}
+
+#projects .image span {
+	position: absolute;
+	left: 0;
+	bottom: -120px;
+	background-color: #000;
+	margin: 0 10px 0 0;
+	color: #fff;
+	padding: 4px 6px;
+	font-size: 17px;
+	line-height: 21px;
+	-webkit-transition: bottom 0.6s cubic-bezier(.17,.67,1,1);
+	-webkit-transition: bottom 0.6s cubic-bezier(.65,.49,.72,1.28);
+	   -moz-transition: bottom 0.6s cubic-bezier(.65,.49,.72,1.28);
+	    -ms-transition: bottom 0.6s cubic-bezier(.65,.49,.72,1.28);
+	     -o-transition: bottom 0.6s cubic-bezier(.65,.49,.72,1.28);
+	        transition: bottom 0.6s cubic-bezier(.65,.49,.72,1.28);
+}
+
+#projects .image:hover span {
+	bottom: 20px;
+	-webkit-transition: bottom 0.3s cubic-bezier(.17,.67,1,1);
+	-webkit-transition: bottom 0.3s cubic-bezier(.65,.49,.72,1.28);
+	   -moz-transition: bottom 0.3s cubic-bezier(.65,.49,.72,1.28);
+	    -ms-transition: bottom 0.3s cubic-bezier(.65,.49,.72,1.28);
+	     -o-transition: bottom 0.3s cubic-bezier(.65,.49,.72,1.28);
+	        transition: bottom 0.3s cubic-bezier(.65,.49,.72,1.28);
+}
