@@ -49,7 +49,7 @@ li {
 	padding-top: 11px;
 }
 
-.thumb {
+
 	position: relative;
 	width: 200px;
 	height: 150px;
@@ -57,6 +57,7 @@ li {
 }
 
 .project-row {
+	position: absolute;
 	padding-bottom: 5px
 }
 
@@ -90,9 +91,12 @@ li {
 /* ID's */
 
 #bodyfont {
+	position: relative;
 	font-family: Helvetica, Verdana, Arial, sans-serif;
 	font-color: black;
-	font-size: 11pt
+	font-size: 11pt;
+	width: 905px;
+	height: 100px;
 }
 
 #container {
@@ -148,37 +152,34 @@ li {
 }
 
 #leftdescription{
-	position: relative;
+	position: absolute;
 	top: 5px;
 	width: 400px;
 	height: 100px;
 	margin: 0;
-	padding-left: 25px;
+	left: 11px;
 	float: left;
 }
 
 #rightdescription {
-	position: relative;
+	position: absolute;
 	width: 400px;
 	top: 5px;
+	right: 18px;
 	height: 100px;
 	margin: 0;
-	padding-right: 20px;
-	float: right;
 }
 
 #contactleft {
-	position: relative;
+	position: absolute;
 	top: 30px;
-	padding-left: 35px;
+	left: 15px;
 }
 
 #contactright {
-	position: relative;
-	text-align: right;
-	top: 30px;
-	padding-left: 35px;
-
+	position: absolute;
+	right: -145px;
+	top: 45px;
 }
 
 #amnestyvideo {
@@ -200,7 +201,7 @@ li {
 
 #foodimage {
 	position: relative;
-	top: 80px;
+	top: 190px;
 }
 
 #eclipsetopimage {
@@ -260,8 +261,8 @@ li {
 }
 
 #narrativeimages {
-	position: relative;
-	top: 30px;
+	position: absolute;
+	top: 150px;
 	padding-bottom: 20px;
 }
 
