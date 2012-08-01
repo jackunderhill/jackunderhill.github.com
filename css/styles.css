@@ -4,8 +4,11 @@ body > #container { height: auto; min-height: 100%; }
 
 /* Generic Selectors */
 
-body {
-	background-color: #fafafa;
+
+body {background: url(../images/grain.png);}
+
+h1 {position: absolute;
+	left: 30px;
 }
 
 ul, li {
@@ -20,23 +23,17 @@ li {
   	height: 600px;
 }
 
-#projects li {
-	position: relative;
-	top: 30px;
-	padding: 9px;
-}
 
 .right-align li {
 	padding: 10px;
 }
 
 
-/* CLasses */
-
 .headerfont {
-	font-family: Helvetica, Verdana, Arial, sans-serif;
-	font-color: black;
-	font-size: 13pt
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-color: #ffffff;
+	font-size: 13pt;
+	text-shadow: 1px 1px 1px black;
 }
 
 .left-align {
@@ -46,20 +43,74 @@ li {
 
 .right-align {
 	float: right;
-	padding-top: 11px;
+	padding-top: 9px;
+	padding-right: 30px;
 }
 
-
+#projects {
 	position: relative;
-	width: 200px;
-	height: 150px;
-	margin: 0;
+	top: 60px;
+	left: 20px;
+	height: 330px;
+	width: 880px;
+	margin: 0 auto;
 }
 
-.project-row {
+
+
+#farlefttop {
 	position: absolute;
-	padding-bottom: 5px
+	top: 0;
+	left: 0;
 }
+
+#lefttop {
+	position: absolute;
+	top: 0;
+	left: 226px;
+
+}
+
+#righttop {
+	position: absolute;
+	top: 0;
+	right: 226px;
+}
+
+#farrighttop {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+#farleftbottom {
+	position: absolute;
+	bottom: 0;
+	left: 226px;
+}
+
+#leftbottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#rightbottom {
+	position: absolute;
+	bottom: 0;
+	right: 226px;
+
+
+}
+
+#farrightbottom {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+
+}
+
 
 .description {
 	text-align: left;
@@ -92,8 +143,8 @@ li {
 
 #bodyfont {
 	position: relative;
-	font-family: Helvetica, Verdana, Arial, sans-serif;
-	font-color: black;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-color: #464646;
 	font-size: 11pt;
 	width: 905px;
 	height: 100px;
@@ -108,31 +159,13 @@ li {
 	margin: 0 auto;
 }
 
-#projects {
-	position: relative;
-	top: -20px;
-	width: 905px;
-	text-align: center;
-	margin: 0 auto;
-}
-
-
 #headercontainer {
 	position: relative;
 	top: 10px;
-	width: 860px;
-	height: 50px;
+	width: 960px;
+	height: 75px;
 	margin: 0 auto;
-}
-
-#divider {
-	position: relative;
-	height: 30px;
-	padding-left: 6px
-}
-
-#divider img {
-	vertical-align: top;
+	background-image: url(../images/navbar.png);
 }
 
 #footer {
@@ -143,7 +176,6 @@ li {
 	 height: 3em;
 	 margin-top: -3em;
 	font-family: Helvetica, Verdana, Arial, sans-serif;
-	font-color: black;
 	font-size: 10pt
 }
 
@@ -272,16 +304,14 @@ li {
 
 
 
-a { text-decoration: none; color: black; }
+a { text-decoration: none; color: white; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
 a:hover, a:active { text-decoration: none; }
 
 
-a img { border:none;
-}
-
+a img { border:none; }
 
 
 #projects .project-row {
