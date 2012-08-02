@@ -330,6 +330,19 @@ li {
 	top: 20px;
 }
 
+#leftcontact {
+	position: absolute;
+	top: 20px;
+	left: 35px;
+	width: 400px
+}
+
+#rightcontact {
+	position: absolute;
+	top: 20px;
+	right: 21px;
+	width: 200px;
+}
 
 a { text-decoration: none; color: white; }
 a:visited { text-decoration: none; }
