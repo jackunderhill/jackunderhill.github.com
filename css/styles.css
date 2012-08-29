@@ -42,8 +42,8 @@ li {
 }
 
 .left-align {
-	float: left;
-	padding-left: 8px
+	position: absolute;
+	left: 11px
 }
 
 .right-align {
