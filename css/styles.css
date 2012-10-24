@@ -30,7 +30,7 @@ li {
 
 
 .right-align li {
-	padding: 10px;
+	padding: 15px;
 }
 
 
@@ -328,6 +328,10 @@ li {
 
 #abouttext {
 	top: 20px;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-color: #464646;
+	font-size: 11pt;
+
 }
 
 #leftcontact {
