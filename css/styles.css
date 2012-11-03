@@ -2,7 +2,7 @@ html, body, #container { height: 100%; }
 body > #container { height: auto; min-height: 100%; }
 
 
-/* Generic Selectors */
+/* Generic selectors */
 
 
 body {background: url(../images/grain.png);
@@ -29,6 +29,8 @@ li {
 }
 
 
+/* Classes */
+
 .right-align li {
 	padding: 10px;
 }
@@ -52,6 +54,80 @@ li {
 	padding-right: 30px;
 }
 
+.description {
+	text-align: left;
+	float: left;
+	position: relative;
+	width: 900px;
+	margin: 0;
+	top: 20px;
+}
+
+.description-about {
+	text-align: left;
+	position: relative;
+	margin: 0;
+	top: 10px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+}
+
+.spaceimages img {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+
+
+/* IDs */
+
+#abouttext {
+	top: 20px;
+}
+
+#amnestyvideo {
+	top: 90px;
+	position: relative;
+}
+
+#bodyfont {
+	position: relative;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-color: #464646;
+	font-size: 11pt;
+	width: 905px;
+	height: 100px;
+}
+
+#container {
+	top: 50px;
+	left: -21px;
+	position: relative;
+	width: 920px;
+	height: 280px;
+	text-align: center;
+	margin: 0 auto;
+	min-height:100%;
+}
+
+#contactleft {
+	position: absolute;
+	top: 30px;
+	left: 15px;
+}
+
+#contactright {
+	position: absolute;
+	right: -145px;
+	top: 45px;
+}
+
+#content { 
+	padding-bottom: 50px;
+}
+
+
 #projects {
 	position: relative;
 	top: 60px;
@@ -60,7 +136,6 @@ li {
 	width: 880px;
 	margin: 0 auto;
 }
-
 
 
 #farlefttop {
@@ -117,51 +192,10 @@ li {
 }
 
 
-.description {
-	text-align: left;
-	float: left;
-	position: relative;
-	width: 900px;
-	margin: 0;
-	top: 20px;
-}
-
-.description-about {
-	text-align: left;
-	position: relative;
-	margin: 0;
-	top: 10px;
-	padding-top: 5px;
-	padding-bottom: 20px;
-	padding-left: 25px;
-}
-
-.spaceimages img {
-	padding-left: 8px;
-	padding-right: 8px;
-}
 
 
 
-#bodyfont {
-	position: relative;
-	font-family: Helvetica, Arial, Verdana, sans-serif;
-	font-color: #464646;
-	font-size: 11pt;
-	width: 905px;
-	height: 100px;
-}
 
-#container {
-	top: 130px;
-	left: -21px;
-	position: relative;
-	width: 920px;
-	height: 280px;
-	text-align: center;
-	margin: 0 auto;
-	min-height:100%;
-}
 
 #headercontainer {
 	position: relative;
@@ -180,9 +214,7 @@ li {
 	top: 50px;
 }
 
-#content { 
-	padding-bottom: 50px;
-}
+
 
 #leftdescription{
 	position: absolute;
@@ -203,22 +235,9 @@ li {
 	margin: 0;
 }
 
-#contactleft {
-	position: absolute;
-	top: 30px;
-	left: 15px;
-}
 
-#contactright {
-	position: absolute;
-	right: -145px;
-	top: 45px;
-}
 
-#amnestyvideo {
-	top: 90px;
-	position: relative;
-}
+
 
 #weatherimage {
 	position: relative;
@@ -326,9 +345,7 @@ li {
 	margin: 0;
 }
 
-#abouttext {
-	top: 20px;
-}
+
 
 #leftcontact {
 	position: absolute;
@@ -353,6 +370,7 @@ a:hover, a:active { text-decoration: none; }
 
 a img { border:none; }
 
+/* hover text */
 
 #projects .project-row {
 	float: left;
