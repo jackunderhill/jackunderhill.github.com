@@ -61,33 +61,36 @@ li {
 	height: 28px;
 	width: 76px;
 	position: absolute;
-	right: 273px;
+	right: 158px;
 	border-bottom: 3px solid #aaa;
-	color: 000000;
+	text-align: center;
 }
 
 #about-nav {
 	height: 28px;
-	width: 70px;
+	width: 60px;
 	position: absolute;
-	right: 168px;
+	right: 352px;
 	border-bottom: 3px solid #aaa;
+	text-align: center;
 }
 
 #contact-nav {
 	height: 28px;
-	width: 78px;
+	width: 80px;
 	position: absolute;
-	right: 46px;
+	right: 44px;
 	border-bottom: 3px solid #aaa;
+	text-align: center;
 }
 
 #blog-nav {
 	height: 28px;
 	width: 44px;
 	position: absolute;
-	right: 386px;
+	right: 272px;
 	border-bottom: 3px solid #aaa;
+	text-align: center;
 }
 
 /* index mouseovers */
@@ -114,7 +117,7 @@ a.cssmouseover:hover {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	font-color: black;
 	font-size: 13pt;
-	text-shadow: 0.5px 1px 1px black;
+	text-shadow: 1px 1px 1px black;
 }
 
 .left-align {
@@ -168,7 +171,7 @@ a.cssmouseover:hover {
 #bodyfont {
 	position: relative;
 	font-family: Helvetica, Arial, Verdana, sans-serif;
-	font-color: black
+	font-color: #464646;
 	font-size: 11pt;
 	width: 905px;
 	height: 100px;
@@ -333,13 +336,13 @@ a.cssmouseover:hover {
 }
 
 
-#printtopimage {
+#postertopimage {
 	position: relative;
 	top: 110px;
 
 }
 
-#printleftimage {
+#posterleftimage {
 	position: relative;
 	top: 150px;
 	float: left;
@@ -348,7 +351,7 @@ a.cssmouseover:hover {
 
 }
 
-#printrightimage {
+#posterrightimage {
 	position: relative;
 	top: 150px;
 	float: right;
@@ -414,7 +417,7 @@ a.cssmouseover:hover {
 	width: 200px;
 }
 
-a { text-decoration: none; color: black; }
+a { text-decoration: none; color: white; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
