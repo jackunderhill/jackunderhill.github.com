@@ -114,7 +114,7 @@ a.cssmouseover:hover {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	font-color: black;
 	font-size: 13pt;
-	text-shadow: 0.5px 1px 1px black;
+	text-shadow: 0.5px 1px 0.5px black;
 }
 
 .left-align {
