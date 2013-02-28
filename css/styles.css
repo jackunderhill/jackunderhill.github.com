@@ -96,11 +96,11 @@ a.cssmouseover {
 	display:block;
 	width:200px;
 	height:150px;
-	background-position:0px -150px;
+	background-position:0px -300px;
 	}
 
 a.cssmouseover:hover {
-	background-position:0px 0px;
+	background-position:0px -150px;
 	}
 
 /* Classes */
