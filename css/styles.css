@@ -34,7 +34,7 @@ li {
 	top: 50px;
 	left: -21px;
 	position: relative;
-	width: 920px;
+	width: 940px;
 	height: 280px;
 	text-align: center;
 	margin: 0 auto;
@@ -56,8 +56,15 @@ li {
 
 /* navigation */
 
+#logo {
+	position: absolute;
+	top: 45px;
+	left: 30px;
+}
+
 
 #projects-nav {
+	top: 69px;
 	height: 28px;
 	width: 76px;
 	position: absolute;
@@ -67,6 +74,7 @@ li {
 }
 
 #about-nav {
+	top: 69px;
 	height: 28px;
 	width: 70px;
 	position: absolute;
