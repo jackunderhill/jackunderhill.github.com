@@ -56,6 +56,16 @@ li {
 
 /* navigation */
 
+#construction {
+	position: relative;
+	top:150px;
+	position: center;
+}
+#construction img {	
+	position: center;
+	width: 450px;
+}
+
 #logo {
 	position: absolute;
 	top: 45px;
