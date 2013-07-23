@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="description" content="Jack Underhill - Graphic Designer for print, web, moving image, typography and anything else that sounds interesting.">
+  <meta name="description" content="Jack Underhill - Web design and development, branding, print and moving image.">
+  <meta name="author" content="Jack Underhill - http://jackunderhill.co.uk">
   <meta charset=utf-8 />
-  <title> {% if page.title %} {{ page.title }} | {% endif %} Jack Underhill: Graphic Design </title>
-  <link rel="stylesheet" href="/css/styles.css" />
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Jack Underhill | Design </title>
+  <!-- google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Lato:700&amp;text=Jack%20Underhill' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+  <!-- stylesheets -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- analytics-->
   <script type="text/javascript">
-
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-37739346-1']);
   _gaq.push(['_setDomainName', 'jackunderhill.co.uk']);
@@ -17,14 +23,48 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
-</script>
+  </script>
+  <!-- retina image replacement -->
+  <script type="text/javascript" src="/scripts/retina.js"></script>
 </head>
 <body>
- 
+
   <div id="container">
-    
-      
+    <div id="content">
+
+      <div id="headerContainer">
+        <div id= "logo" class="left-align">
+          <h1>
+            <a href="index.html">Jack Underhill</a>
+          </h1>
+        </div>
+
+        <div role="navigation">
+          <ul class="headerfont right-align">
+            <li>
+              <div id="projectsNav">
+                <a href="index.html">Projects</a>
+              </div>
+            </li>
+            <li>
+              <div id="aboutNav">
+                <a href="about.html">About</a>
+              </div>
+            </li>
+            <li>
+              <div id="contactNav">
+                <a href="contact.html">Contact</a>
+              </div>
+            </li>
+            <li>
+              <div id="blogNav">
+                <a href="http://jackunderhill.tumblr.com/">Blog </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
 
     {{ content }}
 

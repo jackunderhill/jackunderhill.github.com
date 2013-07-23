@@ -1,3 +1,5 @@
+/*csslint empty-rules: false, ids: false*/
+
 html, body, #container { height: 100%; }
 body > #container { height: auto; min-height: 100%; }
 
@@ -5,15 +7,30 @@ body > #container { height: auto; min-height: 100%; }
 /* Generic selectors */
 
 
-body {background: url(../images/grain.png);
-	text-align: center;
-	margin:0;
-   	padding:0;
-   	height:100%;
+body {
+  background-color: #FAFAFA;
+  text-align: center;
+  margin:0;
+  padding:0;
+  height:100%;
 }
 
-h1 {position: absolute;
-	left: 30px;
+h1 {
+  font-family: 'Lato', verdana, arial, helvetica, sans-serif;
+  color: #000;
+  font-weight: 700;
+  margin-bottom : 0.2em;
+  font-size : 2em; /* 96 / 16 */
+  line-height : 1.4;
+}
+
+h3 {
+  font-family: 'Lato', verdana, arial, helvetica, sans-serif;
+  color: #000;
+  font-weight: 400;
+  margin-bottom : 0.2em;
+  font-size : 1.2em; /* 96 / 16 */
+  line-height : 1.4;
 }
 
 ul, li {
@@ -21,415 +38,533 @@ ul, li {
     padding: 0;
 }
 
-li {
-  	display: inline;
-	float: center;
-	width: 900px;
-  	height: 600px;
+.lato {
+  font-family: 'Lato', verdana, arial, helvetica, sans-serif;
+  color: #000;
+  font-weight: 400;
+  margin-bottom : 0.2em;
+  font-size : 1em; /* 96 / 16 */
+  line-height : 1.4;
 }
+
+.latoLight {
+  font-family: 'Lato', verdana, arial, helvetica, sans-serif;
+  color: #000;
+  font-weight: 300;
+  margin-bottom : 0.2em;
+  font-size : 1em; /* 96 / 16 */
+  line-height : 1.4;
+}
+
 
 /* containers */
 
 #container {
-	top: 50px;
-	left: -21px;
-	position: relative;
-	width: 940px;
-	height: 280px;
-	text-align: center;
-	margin: 0 auto;
-	min-height:100%;
+  top: 50px;
+  position: relative;
+  width: 940px;
+  text-align: center;
+  margin: 0 auto;
+  min-height:100%;
 }
 
-#content { 
-	padding-bottom: 50px;
+#content {
+  padding-bottom: 50px;
 }
 
-#headercontainer {
-	position: relative;
-	top: 10px;
-	width: 960px;
-	height: 75px;
-	margin: 0 auto;
+#headerContainer {
+  position: relative;
+  top: 10px;
+  width: 960px;
+  height: 75px;
+  margin: 0 auto;
 }
 
+#vSmallText {
+  font-size: 10pt;
+}
 
 /* navigation */
 
-#construction {
-	position: relative;
-	top:150px;
-	position: center;
-}
-#construction img {	
-	position: center;
-	width: 450px;
-}
-
 #logo {
-	position: absolute;
-	top: 45px;
-	left: 30px;
+  position: absolute;
+  top: 45px;
+  left: 30px;
 }
 
 
-#projects-nav {
-	top: 69px;
-	height: 28px;
-	width: 76px;
-	position: absolute;
-	right: 273px;
-	border-bottom: 3px solid #aaa;
-	color: 000000;
+#projectsNav {
+  top: 82px;
+  height: 28px;
+  width: 76px;
+  position: absolute;
+  right: 286px;
+  color: 00000;
 }
 
-#about-nav {
-	top: 69px;
-	height: 28px;
-	width: 70px;
-	position: absolute;
-	right: 168px;
-	border-bottom: 3px solid #aaa;
+#aboutNav {
+  top: 82px;
+  height: 28px;
+  width: 70px;
+  position: absolute;
+  right: 164px;
 }
 
-#contact-nav {
-	height: 28px;
-	width: 78px;
-	position: absolute;
-	right: 46px;
-	border-bottom: 3px solid #aaa;
+#contactNav {
+  top: 82px;
+  height: 28px;
+  width: 78px;
+  position: absolute;
+  right: 46px;
 }
 
-#blog-nav {
-	height: 28px;
-	width: 44px;
-	position: absolute;
-	right: 386px;
-	border-bottom: 3px solid #aaa;
+#blogNav {
+  top: 82px;
+  height: 28px;
+  width: 44px;
+  position: absolute;
+  right: 410px;
 }
 
 /* index mouseovers */
 
 a.cssmouseover {
-	display:block;
-	width:200px;
-	height:150px;
-	background-position:0px -300px;
-	}
+  display:block;
+  width:200px;
+  height:150px;
+  background-position:0 -150px;
+  }
 
 a.cssmouseover:hover {
-	background-position:0px -150px;
-	}
+  background-position:0 -300px;
+  }
 
-/* Classes */
 
 .right-align li {
-	padding: 10px;
+  padding: 10px;
 }
 
 
 .headerfont {
-	font-family: Verdana, Helvetica, Arial, sans-serif;
-	font-color: black;
-	font-size: 13pt;
-	text-shadow: 0.5px 1px 0.5px black;
+  font-family: 'Lato', verdana, arial, helvetica, sans-serif;
+  color: #104E8B;
+  font-weight: 400;
+  font-size: 14pt;
 }
 
 .left-align {
-	position: absolute;
-	left: 11px
+  position: absolute;
+  left: 11px
 }
 
 .right-align {
-	float: right;
-	padding-top: 9px;
-	padding-right: 30px;
+  float: right;
+  padding-top: 9px;
+  padding-right: 30px;
 }
 
 .description {
-	text-align: left;
-	float: left;
-	position: relative;
-	width: 900px;
-	margin: 0;
-	top: 20px;
+  text-align: left;
+  float: left;
+  position: relative;
+  width: 900px;
+  margin: 0;
+  top: 20px;
 }
 
-.description-about {
-	text-align: left;
-	position: relative;
-	margin: 0;
-	top: 10px;
-	padding-top: 5px;
-	padding-bottom: 20px;
-	padding-left: 25px;
+.projectInfo {
+  text-align: left;
+  position: relative;
+  margin: 0;
+  top: 10px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 25px;
 }
 
-.spaceimages img {
-	padding-left: 8px;
-	padding-right: 8px;
-}
-
-
-
-/* IDs */
 
 #abouttext {
-	top: 20px;
+  top: 20px;
 }
 
-#amnestyvideo {
-	top: 90px;
-	position: relative;
-}
 
-#bodyfont {
-	position: relative;
-	font-family: Helvetica, Arial, Verdana, sans-serif;
-	font-color: black
-	font-size: 11pt;
-	width: 905px;
-	height: 100px;
+.projectPage {
+  position: absolute;
+  width: 100%;
+  top: 140px;
 }
 
 
 #contactleft {
-	position: absolute;
-	top: 30px;
-	left: 15px;
+  position: absolute;
+  top: 30px;
+  left: 15px;
 }
 
 #contactright {
-	position: absolute;
-	right: -145px;
-	top: 45px;
+  position: absolute;
+  right: -145px;
+  top: 45px;
 }
 
-
-
-#projects {
-	position: relative;
-	top: 60px;
-	left: 20px;
-	height: 330px;
-	width: 880px;
-	margin: 0 auto;
+.top {
+  position: absolute;
+  top: 170px;
 }
 
-
-#farlefttop {
-	position: absolute;
-	top: 0;
-	left: 0;
+.left {
+  position: absolute;
+  left:252px;
 }
 
-#lefttop {
-	position: absolute;
-	top: 0;
-	left: 226px;
-
+.right {
+  position: absolute;
+  right: 252px;
 }
 
-#righttop {
-	position: absolute;
-	top: 0;
-	right: 226px;
+.farLeft {
+  position: absolute;
+  left: 18px;
 }
 
-#farrighttop {
-	position: absolute;
-	top: 0;
-	right: 0;
+.farRight {
+  position: absolute;
+  right: 18px;
 }
 
-
-#farleftbottom {
-	position: absolute;
-	bottom: 0;
-	left: 226px;
+.bottom {
+  position: absolute;
+  top: 350px;
 }
 
-#leftbottom {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
-
-#rightbottom {
-	position: absolute;
-	bottom: 0;
-	right: 226px;
-
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 250px;
 
 }
 
-#farrightbottom {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-
+.thumbCaption {
+  position: absolute;
+  top: 200px;
 }
-
-
-
-
-
-
-
 
 #footer {
-	position: relative;
-	height: 50px;
-	font-family: Helvetica, Verdana, Arial, sans-serif;
-	font-size: 10pt
-	top: 50px;
+  position: relative;
+  height: 50px;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 10pt;
+  top: 50px;
+}
+
+.projectTitle {
+  position: absolute;
+  left: 30px;
+}
+
+.leftDescription{
+  position: absolute;
+  top: 50px;
+  width: 420px;
+  margin: 0;
+  left: 6px;
+  float: left;
+}
+
+.rightDescription {
+  position: absolute;
+  width: 420px;
+  top: 5px;
+  right: 10px;
+  height: 100px;
+  margin: 0;
+}
+
+.nextProject {
+  position: relative;
+  right: 31px;
+  float: right;
+  top: 300px;
+  padding-bottom: 30px;
+}
+
+.previousProject {
+  position: relative;
+  float: left;
+  left: 30px;
+  top: 300px;
+  padding-bottom: 30px;
+}
+
+.nextProject3 {
+  position: relative;
+  right: 31px;
+  float: right;
+  top: 240px;
+  padding-bottom: 30px;
+}
+
+.previousProject3 {
+  position: relative;
+  float: left;
+  left: 30px;
+  top: 240px;
+  padding-bottom: 30px;
+}
+
+.nextProject4 {
+  position: relative;
+  right: 31px;
+  float: right;
+  top: 240px;
+  padding-bottom: 30px;
+}
+
+.previousProject4 {
+  position: relative;
+  float: left;
+  left: 30px;
+  top: 240px;
+  padding-bottom: 30px;
+}
+
+.nextProject5 {
+  position: relative;
+  right: 31px;
+  float: right;
+  top: 40px;
+  padding-bottom: 30px;
+}
+
+.previousProject5 {
+  position: relative;
+  float: left;
+  left: 30px;
+  top: 40px;
+  padding-bottom: 30px;
+}
+
+.nextProject6 {
+  position: relative;
+  right: 31px;
+  float: right;
+  top: 40px;
+  padding-bottom: 30px;
+}
+
+.previousProject6 {
+  position: relative;
+  float: left;
+  left: 30px;
+  top: 40px;
+  padding-bottom: 30px;
+}
+
+.nextProject7 {
+  position: relative;
+  right: 31px;
+  float: right;
+  top: 240px;
+  padding-bottom: 30px;
+}
+
+.previousProject7 {
+  position: relative;
+  float: left;
+  left: 30px;
+  top: 240px;
+  padding-bottom: 30px;
+}
+
+.previousProject8 {
+  position: relative;
+  float: left;
+  left: 30px;
+  top: 200px;
+  padding-bottom: 30px;
+}
+
+.nextProject8 {
+  position: relative;
+  right: 31px;
+  float: right;
+  top: 200px;
+  padding-bottom: 30px;
+}
+
+.previousProject9 {
+  position: relative;
+  float: left;
+  left: 30px;
+  top: 270px;
+  padding-bottom: 30px;
+}
+
+.nextProject9 {
+  position: relative;
+  right: 31px;
+  float: right;
+  top: 270px;
+  padding-bottom: 30px;
 }
 
 
-
-#leftdescription{
-	position: absolute;
-	top: 5px;
-	width: 400px;
-	height: 100px;
-	margin: 0;
-	left: 11px;
-	float: left;
+#horrorVid {
+  position: relative;
+  top: 210px;
 }
-
-#rightdescription {
-	position: absolute;
-	width: 400px;
-	top: 5px;
-	right: 0px;
-	height: 100px;
-	margin: 0;
-}
-
-
-
-
 
 #weatherimage {
-	position: relative;
-	padding-left: 10px;
-	top: 100px;
-	width: 810px;
+  position: relative;
+  padding-left: 10px;
+  top: 100px;
+  width: 810px;
 }
 
-#spacecontainer {
-	position: relative;
-	top: 110px;
+/* courier */
+
+#courier1 {
+  position: relative;
+  top: 180px;
 }
 
-#foodimage {
-	position: relative;
-	top: 100px;
+#courier2 {
+  position: relative;
+  top: 200px;
 }
 
-#eclipsetopimage {
-	position: relative;
-	top: 90px;
-
+#courier3 {
+  position: relative;
+  top: 220px;
 }
 
-#eclipseleftzoom {
-	position: relative;
-	top: 140px;
-	left: 10px;
-	float: left;
-	padding-bottom: 50px;
-
+#courier4 {
+  position: relative;
+  top: 240px;
 }
 
-#eclipserightzoom {
-	position: relative;
-	top: 140px;
-	float: right;
-	right: 10px;
-	padding-bottom: 50px;
+#courier5 {
+  position: relative;
+  top: 260px;
 }
 
+/* bacardi */
 
-#printtopimage {
-	position: relative;
-	top: 110px;
-
+#bacardi1 {
+  position: relative;
+  top: 200px;
 }
 
-#printleftimage {
-	position: relative;
-	top: 150px;
-	float: left;
-	padding-left: 28px;
-	padding-bottom: 50px;
-
+#bacardi2 {
+  position: relative;
+  top: 240px;
 }
 
-#printrightimage {
-	position: relative;
-	top: 150px;
-	float: right;
-	padding-right: 27px;
-	padding-bottom: 50px;
+#bacardi3 {
+  position: relative;
+  top: 180px;
 }
 
-	
-#statisticsimage {
-	position: relative;
-	top: 80px;
-	padding-bottom: 30px;
+#bacardi4 {
+  position: relative;
+  top: 40px;
 }
 
-#statisticsimage img {
-	padding-bottom: 30px;
+#bacardi5 {
+  position: relative;
+  top: 20px;
 }
 
-#narrativeimages {
-	position: relative;
-	top: 100px;
-	left: 20px;
-	padding-bottom: 40px;
+/* bridge */
+
+#bridge1 {
+  position: relative;
+  top: 80px;
 }
 
-#narrativeimages img {
-	position: relative;
-	padding-bottom: 10px;
-	margin: 0 auto;
+#bridge2 {
+  position: relative;
 }
 
-#leftdescriptionvn {
-	position: absolute;
-	top: 0px;
-	width: 400px;
-	height: 100px;
-	margin: 0;
-	left: 32px;
+#bridge3 {
+  position: relative;
+  top: 20px;
 }
 
-#rightdescriptionvn {
-	position: absolute;
-	width: 400px;
-	top: 4px;
-	right: -15px;
-	height: 100px;
-	margin: 0;
+#bridge4 {
+  position: relative;
+  top: 20px;
 }
 
+/* visual narrative */
 
+#visualNarrative {
+  position: relative;
+  top: 170px;
+  padding-bottom: 20px;
+}
+
+#visualNarrative2 {
+  position: relative;
+  top: 170px;
+}
+
+#visualNarrative3 {
+  position: relative;
+  top: 20px;
+}
+
+#visualNarrative4 {
+  position: relative;
+  top: 20px;
+}
+
+#visualNarrative5 {
+  position: relative;
+  top: 20px;
+}
+
+#visualNarrative6 {
+  position: relative;
+  top: 20px;
+}
+
+/* digifilm */
+
+#digifilm1 {
+  position: relative;
+  top: 210px;
+}
+
+#digifilm2 {
+  position: relative;
+  top: 240px;
+}
+
+/* sip */
+
+#sip1 {
+  position: relative;
+  top: 190px;
+}
+
+#sip2 {
+  position: relative;
+  top: 230px;
+}
 
 #leftcontact {
-	position: absolute;
-	top: 20px;
-	left: 35px;
-	width: 400px
+  position: absolute;
+  top: 20px;
+  left: 35px;
+  width: 400px
 }
 
 #rightcontact {
-	position: absolute;
-	top: 20px;
-	right: 21px;
-	width: 200px;
+  position: absolute;
+  top: 20px;
+  right: 21px;
+  width: 200px;
 }
 
 a { text-decoration: none; color: black; }
@@ -440,52 +575,3 @@ a:hover, a:active { text-decoration: none; }
 
 
 a img { border:none; }
-
-/* index hover text */
-
-#projects .project-row {
-	float: left;
-	margin: 0 16px;
-}
-
-#projects .image {
-	width: 200px;
-	height: 150px;
-	float: left;
-	overflow: hidden;
-}
-
-#projects .image a {
-	position: relative;
-	overflow: hidden;
-	float: left;
-	height: 150px;
-}
-
-#projects .image span {
-	position: absolute;
-	left: 0;
-	bottom: -120px;
-	background-color: #000;
-	margin: 0 10px 0 0;
-	color: #fff;
-	padding: 4px 6px;
-	font-size: 17px;
-	line-height: 21px;
-	-webkit-transition: bottom 0.6s cubic-bezier(.17,.67,1,1);
-	-webkit-transition: bottom 0.6s cubic-bezier(.65,.49,.72,1.28);
-	   -moz-transition: bottom 0.6s cubic-bezier(.65,.49,.72,1.28);
-	    -ms-transition: bottom 0.6s cubic-bezier(.65,.49,.72,1.28);
-	     -o-transition: bottom 0.6s cubic-bezier(.65,.49,.72,1.28);
-	        transition: bottom 0.6s cubic-bezier(.65,.49,.72,1.28);
-}
-
-#projects .image:hover span {
-	bottom: 20px;
-	-webkit-transition: bottom 0.3s cubic-bezier(.17,.67,1,1);
-	-webkit-transition: bottom 0.3s cubic-bezier(.65,.49,.72,1.28);
-	   -moz-transition: bottom 0.3s cubic-bezier(.65,.49,.72,1.28);
-	    -ms-transition: bottom 0.3s cubic-bezier(.65,.49,.72,1.28);
-	     -o-transition: bottom 0.3s cubic-bezier(.65,.49,.72,1.28);
-	        transition: bottom 0.3s cubic-bezier(.65,.49,.72,1.28);
-}
