@@ -45,6 +45,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.7px; }
 
+i {
+  font-weight: italic; }
+
 a {
   text-decoration: none;
   color: #475dcc;
