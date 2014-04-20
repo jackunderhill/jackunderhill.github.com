@@ -1,10 +1,29 @@
 ---
 layout: default
+title: Blog Posts
+bodyClass: index
 ---
 
-<div id="container">
-  <h1>I'll be back soon...</h1>
-  <p class="intro">Currently having a site refresh.</p>
-  <p>If you'd like to request a portfolio or get in touch about collaborating on a project, just drop me an <a href="mailto:jack.underhill@hotmail.co.uk" title="Email me">Email</a>.</p>
-  <p>-Jack</p>
+
+<div class="container main container-pad">
+    <div class="col-8-12">
+      <h1>{{ page.title }}</h1>
+      <ol class="posts">
+      {% for post in site.posts %}
+
+        <li>
+          <a href="{{ post.url }}">
+            <h2>{{ post.title }}</h2>
+          </a>
+          <time datetime="{{ post.date | date: "%d-%m-%Y" }}">{{ post.date | date: "%d %b, %Y" }}</time>
+          <span>/</span>
+          <a href="{{ post.url }}">Read</a>
+        </li>
+
+      {% endfor %}
+      </ol>
+    </div>
+
+    {% include sidebar.html %}
+
 </div>
