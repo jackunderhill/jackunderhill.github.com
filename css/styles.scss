@@ -57,7 +57,7 @@ body {
   letter-spacing: 0.7px;
 }
 i {
-  font-weight: italic;
+  font-style: italic;
 }
 a {
   text-decoration: none;
@@ -231,6 +231,9 @@ iframe {
 .main {
   margin-top: 0;
 }
+.sidebar {
+  margin-top: 2.5em;
+}
 .minimal {
   background: url('../images/watch-mobile.jpg') no-repeat center 35%;
 }
@@ -242,5 +245,3 @@ iframe {
 }
 
 }
-
-
