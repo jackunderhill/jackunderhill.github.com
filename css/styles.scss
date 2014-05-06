@@ -197,6 +197,12 @@ div.featured-img {
 .spokenwords {
   background: url('../images/spoken-words.jpg') no-repeat center center;
 }
+.dont-settle {
+  background: url('../images/dont-settle.jpg') no-repeat center center;
+}
+.blurred {
+  background: url('../images/blurred.jpg') no-repeat center center;
+}
 
 // below 480px width
 @media only screen and (max-width : 480px) {
@@ -242,6 +248,12 @@ iframe {
 }
 .spokenwords {
   background: url('../images/spoken-words-mobile.jpg') no-repeat center center;
+}
+.dont-settle {
+  background: url('../images/dont-settle-mobile.jpg') no-repeat center center;
+}
+.blurred {
+  background: url('../images/blurred.jpg') no-repeat center center;
 }
 
 }

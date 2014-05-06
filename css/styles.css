@@ -184,6 +184,12 @@ div.featured-img {
 .spokenwords {
   background: url("../images/spoken-words.jpg") no-repeat center center; }
 
+.dont-settle {
+  background: url("../images/dont-settle.jpg") no-repeat center center; }
+
+.blurred {
+  background: url("../images/blurred.jpg") no-repeat center center; }
+
 @media only screen and (max-width: 480px) {
   div.featured-img {
     height: 300px; }
@@ -225,4 +231,10 @@ div.featured-img {
     background: url("../images/rpi-mobile.jpg") no-repeat center center; }
 
   .spokenwords {
-    background: url("../images/spoken-words-mobile.jpg") no-repeat center center; } }
+    background: url("../images/spoken-words-mobile.jpg") no-repeat center center; }
+
+  .dont-settle {
+    background: url("../images/dont-settle-mobile.jpg") no-repeat center center; }
+
+  .blurred {
+    background: url("../images/blurred.jpg") no-repeat center center; } }
