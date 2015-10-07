@@ -38,3 +38,4 @@ body{margin:0}
 @media handheld, only screen and (max-width: 800px){.container{width:100%;min-width:0;margin-left:0;margin-right:0;padding-left:0;padding-right:0}
 [class*='col-']{width:auto;float:none;margin-left:0;margin-right:0;margin-top:10px;margin-bottom:10px;padding-left:20px;padding-right:20px}
 }
+.mobile-no-padding {padding: 0;}
