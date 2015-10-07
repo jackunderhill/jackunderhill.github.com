@@ -32,7 +32,7 @@
       <ul>
         <li id="logo">JU</li><li>
         <a href="/about.html">About</a></li><li>
-        <a href="/">Archive</a></li><li>
+        <a href="/">Posts</a></li><li>
         <a href="/contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -44,9 +44,16 @@
 
 <div class="container container-pad footer">
     <div class="col-1-1">
-      <p class="text-center">&#169; Jack Underhill 2014</p>
+      <p class="text-center">&#169; Jack Underhill <span id="footerDate"><span></p>
     </div>
 </div>
 
 </body>
+<script type="text/javascript">
+window.onload = footerDate;
+function footerDate() {
+  var d = new Date;
+  document.getElementById('footerDate').innerHTML = d.getFullYear();
+}
+</script>
 </html>
